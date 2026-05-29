@@ -1,0 +1,14 @@
+## Hardware
+- MINISFORUM NAB8 Plus Mini PC Core i7-12800H barebones (small form factor, low power, low temp, scaleable)
+- Crucial 32GB Single DDR4 3200 MT/S CL22 SODIMM 260-Pin Memory - CT32G4SFD832A (will add another 32GB later for 64GB total)
+- Crucial P310 500GB SSD, PCIe Gen4 NVMe M.2 2280, Up to 6,600MB/s (will add large 2.5" SSDs later)
+- NETGEAR 5-Port 2.5G Multi-Gigabit Ethernet Unmanaged Network Switch (MS305) (dedicated fast back-end network for file replication and redundancy)
+- NETGEAR 24-Port 1.0G Legacy Ethernet Managed Switch (management network for interface and administration with the LAN)
+- CyberPower CP1500PFCLCD PFC Sinewave UPS Battery Backup and Surge Protector, 1500VA/1000W, 12 Outlets, AVR, Mini Tower, UL Certified (PFC sine-wave UPS with NUT tools for continuous uptime during short outages, and graceful shutdowns for longer outages)
+
+Future upgrade plans:
+-NAS storage for Proxmox Backup Server, NFS and ISO storage, templates, snapshots, media, and long-term file restore capability
+-2TB-4TB SSD drives for each node to allow OSD and ZFS capabilities, true replication, and high availability
+-Additional 32GB RAM for each node, for a total of 64GB each for CEPH and greater enterprise capabilities
+-10GbE SFP+ back-end switch
+-10GbE SFP+ network cards for nodes and NAS back-end
