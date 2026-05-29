@@ -1,4 +1,4 @@
-# 3-Node Proxmox Virtualization Cluster
+# Hardware
 - MINISFORUM NAB8 Plus Mini PC Core i7-12800H barebones (small form factor, low power, low temp, scaleable)
 - Crucial 32GB Single DDR4 3200 MT/S CL22 SODIMM 260-Pin Memory - CT32G4SFD832A (will add another 32GB later for 64GB total)
 - Crucial P310 500GB SSD, PCIe Gen4 NVMe M.2 2280, Up to 6,600MB/s (will add large 2.5" SSDs later)
