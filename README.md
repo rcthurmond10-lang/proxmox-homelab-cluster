@@ -21,3 +21,30 @@ The project focused on:
 | Management Network | 1GbE |
 | Filesystem | ZFS |
 | Hypervisor | Proxmox VE 8.x |
+## Network Architecture
+
+| Network | Purpose | Subnet |
+|---|---|---|
+| Management | Proxmox UI / SSH | 192.x.x.0/24 |
+| Backend Cluster | Corosync / Migration | 10.x.x.0/24 |
+## Node Addressing
+
+| Node | Management IP | Backend IP |
+|---|---|---|
+| pve1 | 192.x.x.xa | 10.x.x.xa |
+| pve2 | 192.x.x.xb | 10.x.x.xb |
+| pve3 | 192.x.x.xc | 10.x.x.xc |
+## Bridge Configuration
+
+| Bridge | Interface | Purpose |
+|---|---|---|
+| vmbr0 | enp1s0 | Management / VM traffic |
+| vmbr1 | enp2s0 | Cluster backend |
+## Firewall Policies
+
+| Layer | Policy |
+|---|---|
+| Datacenter Input | DROP |
+| Datacenter Output | ACCEPT |
+| Node Input | DROP |
+| Node Output | ACCEPT |
