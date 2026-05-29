@@ -9,6 +9,7 @@ The project focused on:
 - ZFS storage architecture
 - Linux systems administration
 - homelab/private cloud engineering
+- resilience and disaster recovery
 ## Hardware Specifications
 
 | Component | Specification |
