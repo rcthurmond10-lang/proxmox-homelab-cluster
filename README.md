@@ -20,6 +20,7 @@ The project focused on:
 | Storage | 512GB NVMe SSD per node |
 | Backend Network | Dedicated 2.5GbE |
 | Management Network | 1GbE |
+| Power | UPS backup power supply |
 | Filesystem | ZFS |
 | Hypervisor | Proxmox VE 8.x |
 ## Network Architecture
